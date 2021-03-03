@@ -10,7 +10,7 @@ Steps:
 1. Have Docker on your machine.
 2. In the directory of the `docker-compose.yml` file, run `docker-compose build` to build the image.
 3. Run `docker-compose up` to spin up the containers. This will create the mySQL container, as well as run the python script.
-4. To view the table contents, go into the mySQL docker container.
+4. To view the table contents, go into the mySQL docker container (explained in the next steps).
 5. Run `docker ps` to list out all of your containers. Find the one that is named `marvel_db*`. Locate the container ID.
 6. To shell into the container, run `docker exec -it <CONTAINER_ID> bash`.
 7. Run `mysql -u root -p root` to log into mySQL
